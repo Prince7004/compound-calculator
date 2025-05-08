@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Compound Interest Calculator</h1>
+        <form id="calculator-form">
+            <div class="form-group">
+                <label for="principal">Principal Amount ($):</label>
+                <input type="number" id="principal" min="0" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="rate">Annual Interest Rate (%):</label>
+                <input type="number" id="rate" min="0" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="time">Time Period (years):</label>
+                <input type="number" id="time" min="0" step="any" required>
+            </div>
+            <div class="form-group">
+                <label for="compounds">Compounds Per Year:</label>
+                <select id="compounds" required>
+                    <option value="1">Annually (1/year)</option>
+                    <option value="2">Semi-annually (2/year)</option>
+                    <option value="4">Quarterly (4/year)</option>
+                    <option value="12">Monthly (12/year)</option>
+                    <option value="365">Daily (365/year)</option>
+                </select>
+            </div>
+
+            <button type="submit" id="calculate-btn">Calculate</button>
+        </form>
+
+        <div id="result" class="hidden">
+            <h2>Results</h2>
+            <div class="result-grid">
+                <div class="result-item">
+                    <span class="result-label">Future Value:</span>
+                    <span id="future-value" class="result-value"></span>
+                </div>
+                <div class="result-item">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
