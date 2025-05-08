@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <h1>Compound Interest Calculator</h1>
-        <form id="calculator-form">
+        <form id="calculator-form"> <!-- create form with inputs for compound interest formula variables -->
             <div class="form-group">
                 <label for="principal">Principal Amount ($):</label>
                 <input type="number" id="principal" min="0" step="any" required>
@@ -36,19 +36,22 @@
             <button type="submit" id="calculate-btn">Calculate</button>
         </form>
 
-        <div id="result" class="hidden">
+        <div id="result" class="hidden"> <!-- results section starts hidden before user inputs values -->
             <h2>Results</h2>
             <div class="result-grid">
                 <div class="result-item">
-                    <span class="result-label">Future Value:</span>
+                    <span class="result-label">Future Value:</span> <!-- semantic HTML elements for better accessibility -->
                     <span id="future-value" class="result-value"></span>
                 </div>
                 <div class="result-item">
-                
+                    <span class="result-label">Total Interest Earned:</span>
+                    <span id="interest-earned" class="result-value"></span>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
